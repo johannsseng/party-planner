@@ -1,0 +1,102 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  background-color: #f7f7f7;
+}
+
+h1 {
+  text-align: center;
+  padding: 1rem;
+}
+
+main {
+  display: grid;
+  gap: 1rem;
+}
+
+section {
+  padding: 1rem;
+  background: white;
+  border-radius: 8px;
+}
+
+.lineup {
+  list-style: none;
+  display: grid;
+  gap: 0.5rem;
+}
+
+.lineup a {
+  display: block;
+  width: 100%;
+  padding: 0.75rem;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  text-decoration: none;
+  color: #333;
+  transition: 0.2s ease;
+}
+
+.lineup a:hover {
+  background: #f0f0f0;
+}
+
+.Party {
+  display: grid;
+  gap: 0.75rem;
+}
+
+.Party button {
+  padding: 0.5rem;
+  border: none;
+  background: #ff4d4d;
+  color: white;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.Party button:hover {
+  background: #e60000;
+}
+
+img {
+  max-width: 100%;
+  max-height: 50vh;
+  object-fit: contain;
+  border-radius: 6px;
+}
+
+@media (min-width: 600px) {
+  main {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+form {
+  display: grid;
+  gap: 0.75rem;
+}
+
+input {
+  padding: 0.5rem;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+button {
+  padding: 0.5rem;
+  border-radius: 4px;
+  border: none;
+  background: #333;
+  color: white;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #555;
+}
